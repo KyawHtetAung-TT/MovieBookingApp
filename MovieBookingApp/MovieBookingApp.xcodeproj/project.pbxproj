@@ -16,6 +16,10 @@
 		9836FC15266E8E5E00E2A0BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9836FC13266E8E5E00E2A0BE /* LaunchScreen.storyboard */; };
 		9836FC1F266FA3EE00E2A0BE /* MovieTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836FC1E266FA3EE00E2A0BE /* MovieTimeViewController.swift */; };
 		9836FC21266FA40300E2A0BE /* MovieSeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836FC20266FA40300E2A0BE /* MovieSeatViewController.swift */; };
+		9836FC34266FD04D00E2A0BE /* DayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836FC32266FD04D00E2A0BE /* DayCollectionViewCell.swift */; };
+		9836FC35266FD04D00E2A0BE /* DayCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9836FC33266FD04D00E2A0BE /* DayCollectionViewCell.xib */; };
+		9836FC38266FDF5400E2A0BE /* TimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836FC36266FDF5400E2A0BE /* TimeCollectionViewCell.swift */; };
+		9836FC39266FDF5400E2A0BE /* TimeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9836FC37266FDF5400E2A0BE /* TimeCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		9836FC16266E8E5E00E2A0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9836FC1E266FA3EE00E2A0BE /* MovieTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTimeViewController.swift; sourceTree = "<group>"; };
 		9836FC20266FA40300E2A0BE /* MovieSeatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSeatViewController.swift; sourceTree = "<group>"; };
+		9836FC32266FD04D00E2A0BE /* DayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCollectionViewCell.swift; sourceTree = "<group>"; };
+		9836FC33266FD04D00E2A0BE /* DayCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayCollectionViewCell.xib; sourceTree = "<group>"; };
+		9836FC36266FDF5400E2A0BE /* TimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		9836FC37266FDF5400E2A0BE /* TimeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,25 +83,141 @@
 		9836FC07266E8E5C00E2A0BE /* MovieBookingApp */ = {
 			isa = PBXGroup;
 			children = (
-				9836FC08266E8E5C00E2A0BE /* AppDelegate.swift */,
-				9836FC0A266E8E5C00E2A0BE /* SceneDelegate.swift */,
-				9836FC1D266FA3BD00E2A0BE /* View Controller */,
-				9836FC0E266E8E5C00E2A0BE /* Main.storyboard */,
-				9836FC11266E8E5E00E2A0BE /* Assets.xcassets */,
-				9836FC13266E8E5E00E2A0BE /* LaunchScreen.storyboard */,
+				9836FC2E266FC35A00E2A0BE /* dummy */,
+				9836FC2F266FC3AB00E2A0BE /* utils */,
+				9836FC30266FC3B000E2A0BE /* data */,
+				9836FC31266FC3DF00E2A0BE /* vos */,
+				9836FC22266FC23300E2A0BE /* Delegate */,
+				9836FC1D266FA3BD00E2A0BE /* view controller */,
+				9836FC27266FC2F000E2A0BE /* cell */,
+				9836FC23266FC24600E2A0BE /* storyboard */,
+				9836FC24266FC26000E2A0BE /* resource */,
 				9836FC16266E8E5E00E2A0BE /* Info.plist */,
 			);
 			path = MovieBookingApp;
 			sourceTree = "<group>";
 		};
-		9836FC1D266FA3BD00E2A0BE /* View Controller */ = {
+		9836FC1D266FA3BD00E2A0BE /* view controller */ = {
 			isa = PBXGroup;
 			children = (
 				9836FC0C266E8E5C00E2A0BE /* ViewController.swift */,
 				9836FC1E266FA3EE00E2A0BE /* MovieTimeViewController.swift */,
 				9836FC20266FA40300E2A0BE /* MovieSeatViewController.swift */,
 			);
-			path = "View Controller";
+			path = "view controller";
+			sourceTree = "<group>";
+		};
+		9836FC22266FC23300E2A0BE /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				9836FC08266E8E5C00E2A0BE /* AppDelegate.swift */,
+				9836FC0A266E8E5C00E2A0BE /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		9836FC23266FC24600E2A0BE /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9836FC0E266E8E5C00E2A0BE /* Main.storyboard */,
+				9836FC13266E8E5E00E2A0BE /* LaunchScreen.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		9836FC24266FC26000E2A0BE /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				9836FC11266E8E5E00E2A0BE /* Assets.xcassets */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		9836FC27266FC2F000E2A0BE /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				9836FC29266FC30600E2A0BE /* table vIew */,
+				9836FC28266FC2FC00E2A0BE /* collection view */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		9836FC28266FC2FC00E2A0BE /* collection view */ = {
+			isa = PBXGroup;
+			children = (
+				9836FC2D266FC34E00E2A0BE /* swifts */,
+				9836FC2C266FC34800E2A0BE /* xibs */,
+			);
+			path = "collection view";
+			sourceTree = "<group>";
+		};
+		9836FC29266FC30600E2A0BE /* table vIew */ = {
+			isa = PBXGroup;
+			children = (
+				9836FC2B266FC34300E2A0BE /* swifts */,
+				9836FC2A266FC32C00E2A0BE /* xibs */,
+			);
+			path = "table vIew";
+			sourceTree = "<group>";
+		};
+		9836FC2A266FC32C00E2A0BE /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		9836FC2B266FC34300E2A0BE /* swifts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = swifts;
+			sourceTree = "<group>";
+		};
+		9836FC2C266FC34800E2A0BE /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				9836FC33266FD04D00E2A0BE /* DayCollectionViewCell.xib */,
+				9836FC37266FDF5400E2A0BE /* TimeCollectionViewCell.xib */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		9836FC2D266FC34E00E2A0BE /* swifts */ = {
+			isa = PBXGroup;
+			children = (
+				9836FC32266FD04D00E2A0BE /* DayCollectionViewCell.swift */,
+				9836FC36266FDF5400E2A0BE /* TimeCollectionViewCell.swift */,
+			);
+			path = swifts;
+			sourceTree = "<group>";
+		};
+		9836FC2E266FC35A00E2A0BE /* dummy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = dummy;
+			sourceTree = "<group>";
+		};
+		9836FC2F266FC3AB00E2A0BE /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		9836FC30266FC3B000E2A0BE /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		9836FC31266FC3DF00E2A0BE /* vos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = vos;
 			sourceTree = "<group>";
 		};
 		C3B21CC8F579927F6617D226 /* Pods */ = {
@@ -166,7 +290,9 @@
 			files = (
 				9836FC15266E8E5E00E2A0BE /* LaunchScreen.storyboard in Resources */,
 				9836FC12266E8E5E00E2A0BE /* Assets.xcassets in Resources */,
+				9836FC39266FDF5400E2A0BE /* TimeCollectionViewCell.xib in Resources */,
 				9836FC10266E8E5C00E2A0BE /* Main.storyboard in Resources */,
+				9836FC35266FD04D00E2A0BE /* DayCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +346,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9836FC0D266E8E5C00E2A0BE /* ViewController.swift in Sources */,
+				9836FC34266FD04D00E2A0BE /* DayCollectionViewCell.swift in Sources */,
 				9836FC21266FA40300E2A0BE /* MovieSeatViewController.swift in Sources */,
 				9836FC09266E8E5C00E2A0BE /* AppDelegate.swift in Sources */,
+				9836FC38266FDF5400E2A0BE /* TimeCollectionViewCell.swift in Sources */,
 				9836FC1F266FA3EE00E2A0BE /* MovieTimeViewController.swift in Sources */,
 				9836FC0B266E8E5C00E2A0BE /* SceneDelegate.swift in Sources */,
 			);
