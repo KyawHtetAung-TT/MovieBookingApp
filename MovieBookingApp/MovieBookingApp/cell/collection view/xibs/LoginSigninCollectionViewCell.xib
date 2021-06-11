@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="LoginSigninCollectionViewCell" customModule="MovieBookingApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="178" height="62"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="178" height="62"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jyB-Rx-QTj">
+                        <rect key="frame" x="0.0" y="0.0" width="178" height="62"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p4M-aH-ov7">
+                                <rect key="frame" x="0.0" y="0.0" width="178" height="57"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="textColor" name="movie-seat-taken-color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Btl-Fx-hHL">
+                                <rect key="frame" x="0.0" y="57" width="178" height="5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="5" id="H0g-fi-3nJ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="p4M-aH-ov7" firstAttribute="top" secondItem="jyB-Rx-QTj" secondAttribute="top" id="0Pc-Pq-Q32"/>
+                            <constraint firstItem="p4M-aH-ov7" firstAttribute="leading" secondItem="jyB-Rx-QTj" secondAttribute="leading" id="I9l-l8-g7S"/>
+                            <constraint firstItem="p4M-aH-ov7" firstAttribute="centerX" secondItem="jyB-Rx-QTj" secondAttribute="centerX" id="LiG-I5-m4L"/>
+                            <constraint firstItem="Btl-Fx-hHL" firstAttribute="leading" secondItem="jyB-Rx-QTj" secondAttribute="leading" id="Phm-vU-5ML"/>
+                            <constraint firstItem="Btl-Fx-hHL" firstAttribute="top" secondItem="p4M-aH-ov7" secondAttribute="bottom" id="Tgw-5k-cme"/>
+                            <constraint firstAttribute="trailing" secondItem="p4M-aH-ov7" secondAttribute="trailing" id="ezJ-xv-pnk"/>
+                            <constraint firstAttribute="bottom" secondItem="Btl-Fx-hHL" secondAttribute="bottom" id="kX8-yC-cup"/>
+                            <constraint firstAttribute="trailing" secondItem="Btl-Fx-hHL" secondAttribute="trailing" id="up1-Jd-5I7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="jyB-Rx-QTj" secondAttribute="bottom" id="6fn-LQ-cIv"/>
+                <constraint firstItem="jyB-Rx-QTj" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Jj8-g5-di1"/>
+                <constraint firstItem="jyB-Rx-QTj" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="hem-qZ-L7S"/>
+                <constraint firstAttribute="trailing" secondItem="jyB-Rx-QTj" secondAttribute="trailing" id="ul7-Fd-jhb"/>
+            </constraints>
+            <size key="customSize" width="178" height="62"/>
+            <connections>
+                <outlet property="lblLoginSignin" destination="p4M-aH-ov7" id="648-I3-7tu"/>
+                <outlet property="underLineViewColor" destination="Btl-Fx-hHL" id="r5e-th-JzS"/>
+            </connections>
+            <point key="canvasLocation" x="126.08695652173914" y="107.8125"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="movie-seat-taken-color">
+            <color red="0.51800000667572021" green="0.5690000057220459" blue="0.68599998950958252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
