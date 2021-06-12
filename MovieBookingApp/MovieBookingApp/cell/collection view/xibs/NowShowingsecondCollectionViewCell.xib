@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="NowShowingsecondCollectionViewCell" customModule="MovieBookingApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="167" height="224"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="167" height="224"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="azV-tO-7IQ">
+                        <rect key="frame" x="0.0" y="0.0" width="167" height="224"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wonder park" translatesAutoresizingMaskIntoConstraints="NO" id="F4r-pf-Ec2">
+                                <rect key="frame" x="0.0" y="0.0" width="167" height="180"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="A7m-J0-vgz"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ejB-uI-cpa">
+                                <rect key="frame" x="0.0" y="190" width="167" height="29"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wonder Park" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIY-kv-BDV">
+                                        <rect key="frame" x="0.0" y="0.0" width="167" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="Rv6-mR-i2U"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mystery/Adventure - 1 hr52min" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQH-An-Gl1">
+                                        <rect key="frame" x="0.0" y="20" width="167" height="9"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ejB-uI-cpa" firstAttribute="top" secondItem="F4r-pf-Ec2" secondAttribute="bottom" constant="10" id="301-M1-Bkx"/>
+                            <constraint firstAttribute="trailing" secondItem="ejB-uI-cpa" secondAttribute="trailing" id="5sv-I9-gvQ"/>
+                            <constraint firstItem="F4r-pf-Ec2" firstAttribute="leading" secondItem="azV-tO-7IQ" secondAttribute="leading" id="FgL-lG-DLg"/>
+                            <constraint firstAttribute="bottom" secondItem="ejB-uI-cpa" secondAttribute="bottom" constant="5" id="Gr9-Ys-hhS"/>
+                            <constraint firstAttribute="trailing" secondItem="F4r-pf-Ec2" secondAttribute="trailing" id="bPL-dV-o7l"/>
+                            <constraint firstItem="ejB-uI-cpa" firstAttribute="leading" secondItem="azV-tO-7IQ" secondAttribute="leading" id="gKG-ka-Tf3"/>
+                            <constraint firstItem="F4r-pf-Ec2" firstAttribute="top" secondItem="azV-tO-7IQ" secondAttribute="top" id="kRP-y7-c7g"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="azV-tO-7IQ" secondAttribute="bottom" id="0os-AK-zfo"/>
+                <constraint firstItem="azV-tO-7IQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="23x-cA-5d1"/>
+                <constraint firstAttribute="trailing" secondItem="azV-tO-7IQ" secondAttribute="trailing" id="Cvk-ER-uBS"/>
+                <constraint firstItem="azV-tO-7IQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="LOS-zp-MMc"/>
+                <constraint firstAttribute="trailing" secondItem="azV-tO-7IQ" secondAttribute="trailing" id="hO2-JQ-0fi"/>
+                <constraint firstItem="azV-tO-7IQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ina-CM-sTV"/>
+                <constraint firstItem="azV-tO-7IQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="nGP-wb-o1C"/>
+            </constraints>
+            <size key="customSize" width="167" height="224"/>
+            <point key="canvasLocation" x="119.56521739130436" y="158.03571428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="wonder park" width="213.33332824707031" height="320"/>
+    </resources>
+</document>

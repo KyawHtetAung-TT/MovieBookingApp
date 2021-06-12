@@ -31,6 +31,18 @@
 		9836FC4B2673E55F00E2A0BE /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836FC4A2673E55F00E2A0BE /* ViewExtension.swift */; };
 		9836FC4E2673F50700E2A0BE /* LoginSigninCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836FC4C2673F50700E2A0BE /* LoginSigninCollectionViewCell.swift */; };
 		9836FC4F2673F50700E2A0BE /* LoginSigninCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9836FC4D2673F50700E2A0BE /* LoginSigninCollectionViewCell.xib */; };
+		9836FC512674FF7F00E2A0BE /* NowShowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836FC502674FF7F00E2A0BE /* NowShowingViewController.swift */; };
+		9836FC532674FFA300E2A0BE /* SIdeMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836FC522674FFA300E2A0BE /* SIdeMenuViewController.swift */; };
+		9836FC562674FFF600E2A0BE /* NowShowingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836FC542674FFF600E2A0BE /* NowShowingCollectionViewCell.swift */; };
+		9836FC5A2675160000E2A0BE /* NowShowingsecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836FC58267515FF00E2A0BE /* NowShowingsecondCollectionViewCell.swift */; };
+		9836FC5B2675160000E2A0BE /* NowShowingsecondCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9836FC592675160000E2A0BE /* NowShowingsecondCollectionViewCell.xib */; };
+		9836FC5D26751E3B00E2A0BE /* NowShowingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9836FC5C26751E3B00E2A0BE /* NowShowingCollectionViewCell.xib */; };
+		9836FC60267523A700E2A0BE /* NowShowingthirdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836FC5E267523A700E2A0BE /* NowShowingthirdCollectionViewCell.swift */; };
+		9836FC61267523A700E2A0BE /* NowShowingthirdCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9836FC5F267523A700E2A0BE /* NowShowingthirdCollectionViewCell.xib */; };
+		9836FC632675282C00E2A0BE /* GetTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836FC622675282C00E2A0BE /* GetTicketViewController.swift */; };
+		9836FC6626752C7300E2A0BE /* NowShowingItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836FC6526752C7300E2A0BE /* NowShowingItemDelegate.swift */; };
+		9836FC692675372D00E2A0BE /* NowShowingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836FC672675372D00E2A0BE /* NowShowingTableViewCell.swift */; };
+		9836FC6A2675372D00E2A0BE /* NowShowingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9836FC682675372D00E2A0BE /* NowShowingTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +74,18 @@
 		9836FC4A2673E55F00E2A0BE /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		9836FC4C2673F50700E2A0BE /* LoginSigninCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSigninCollectionViewCell.swift; sourceTree = "<group>"; };
 		9836FC4D2673F50700E2A0BE /* LoginSigninCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginSigninCollectionViewCell.xib; sourceTree = "<group>"; };
+		9836FC502674FF7F00E2A0BE /* NowShowingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowShowingViewController.swift; sourceTree = "<group>"; };
+		9836FC522674FFA300E2A0BE /* SIdeMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIdeMenuViewController.swift; sourceTree = "<group>"; };
+		9836FC542674FFF600E2A0BE /* NowShowingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowShowingCollectionViewCell.swift; sourceTree = "<group>"; };
+		9836FC58267515FF00E2A0BE /* NowShowingsecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowShowingsecondCollectionViewCell.swift; sourceTree = "<group>"; };
+		9836FC592675160000E2A0BE /* NowShowingsecondCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NowShowingsecondCollectionViewCell.xib; sourceTree = "<group>"; };
+		9836FC5C26751E3B00E2A0BE /* NowShowingCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NowShowingCollectionViewCell.xib; path = ../../../../../../.Trash/NowShowingCollectionViewCell.xib; sourceTree = "<group>"; };
+		9836FC5E267523A700E2A0BE /* NowShowingthirdCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowShowingthirdCollectionViewCell.swift; sourceTree = "<group>"; };
+		9836FC5F267523A700E2A0BE /* NowShowingthirdCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NowShowingthirdCollectionViewCell.xib; sourceTree = "<group>"; };
+		9836FC622675282C00E2A0BE /* GetTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTicketViewController.swift; sourceTree = "<group>"; };
+		9836FC6526752C7300E2A0BE /* NowShowingItemDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowShowingItemDelegate.swift; sourceTree = "<group>"; };
+		9836FC672675372D00E2A0BE /* NowShowingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowShowingTableViewCell.swift; sourceTree = "<group>"; };
+		9836FC682675372D00E2A0BE /* NowShowingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NowShowingTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +129,7 @@
 		9836FC07266E8E5C00E2A0BE /* MovieBookingApp */ = {
 			isa = PBXGroup;
 			children = (
+				9836FC6426752C4E00E2A0BE /* protocol */,
 				9836FC2E266FC35A00E2A0BE /* dummy */,
 				9836FC2F266FC3AB00E2A0BE /* utils */,
 				9836FC30266FC3B000E2A0BE /* data */,
@@ -126,6 +151,9 @@
 				9836FC20266FA40300E2A0BE /* MovieSeatViewController.swift */,
 				9836FC442672081A00E2A0BE /* WelcomeViewController.swift */,
 				9836FC482673DDFC00E2A0BE /* LoginViewController.swift */,
+				9836FC502674FF7F00E2A0BE /* NowShowingViewController.swift */,
+				9836FC522674FFA300E2A0BE /* SIdeMenuViewController.swift */,
+				9836FC622675282C00E2A0BE /* GetTicketViewController.swift */,
 			);
 			path = "view controller";
 			sourceTree = "<group>";
@@ -186,6 +214,7 @@
 		9836FC2A266FC32C00E2A0BE /* xibs */ = {
 			isa = PBXGroup;
 			children = (
+				9836FC682675372D00E2A0BE /* NowShowingTableViewCell.xib */,
 			);
 			path = xibs;
 			sourceTree = "<group>";
@@ -193,6 +222,7 @@
 		9836FC2B266FC34300E2A0BE /* swifts */ = {
 			isa = PBXGroup;
 			children = (
+				9836FC672675372D00E2A0BE /* NowShowingTableViewCell.swift */,
 			);
 			path = swifts;
 			sourceTree = "<group>";
@@ -204,6 +234,9 @@
 				9836FC37266FDF5400E2A0BE /* TimeCollectionViewCell.xib */,
 				9836FC4126713A3D00E2A0BE /* MovieSeatCollectionViewCell.xib */,
 				9836FC4D2673F50700E2A0BE /* LoginSigninCollectionViewCell.xib */,
+				9836FC5C26751E3B00E2A0BE /* NowShowingCollectionViewCell.xib */,
+				9836FC592675160000E2A0BE /* NowShowingsecondCollectionViewCell.xib */,
+				9836FC5F267523A700E2A0BE /* NowShowingthirdCollectionViewCell.xib */,
 			);
 			path = xibs;
 			sourceTree = "<group>";
@@ -215,6 +248,9 @@
 				9836FC36266FDF5400E2A0BE /* TimeCollectionViewCell.swift */,
 				9836FC4026713A3D00E2A0BE /* MovieSeatCollectionViewCell.swift */,
 				9836FC4C2673F50700E2A0BE /* LoginSigninCollectionViewCell.swift */,
+				9836FC542674FFF600E2A0BE /* NowShowingCollectionViewCell.swift */,
+				9836FC58267515FF00E2A0BE /* NowShowingsecondCollectionViewCell.swift */,
+				9836FC5E267523A700E2A0BE /* NowShowingthirdCollectionViewCell.swift */,
 			);
 			path = swifts;
 			sourceTree = "<group>";
@@ -251,6 +287,14 @@
 				9836FC3A2671307E00E2A0BE /* MovieVO.swift */,
 			);
 			path = vos;
+			sourceTree = "<group>";
+		};
+		9836FC6426752C4E00E2A0BE /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				9836FC6526752C7300E2A0BE /* NowShowingItemDelegate.swift */,
+			);
+			path = protocol;
 			sourceTree = "<group>";
 		};
 		C3B21CC8F579927F6617D226 /* Pods */ = {
@@ -322,10 +366,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9836FC15266E8E5E00E2A0BE /* LaunchScreen.storyboard in Resources */,
+				9836FC61267523A700E2A0BE /* NowShowingthirdCollectionViewCell.xib in Resources */,
 				9836FC12266E8E5E00E2A0BE /* Assets.xcassets in Resources */,
 				9836FC4F2673F50700E2A0BE /* LoginSigninCollectionViewCell.xib in Resources */,
 				9836FC39266FDF5400E2A0BE /* TimeCollectionViewCell.xib in Resources */,
+				9836FC6A2675372D00E2A0BE /* NowShowingTableViewCell.xib in Resources */,
 				9836FC10266E8E5C00E2A0BE /* Main.storyboard in Resources */,
+				9836FC5D26751E3B00E2A0BE /* NowShowingCollectionViewCell.xib in Resources */,
+				9836FC5B2675160000E2A0BE /* NowShowingsecondCollectionViewCell.xib in Resources */,
 				9836FC4326713A3D00E2A0BE /* MovieSeatCollectionViewCell.xib in Resources */,
 				9836FC35266FD04D00E2A0BE /* DayCollectionViewCell.xib in Resources */,
 			);
@@ -381,21 +429,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				9836FC492673DDFC00E2A0BE /* LoginViewController.swift in Sources */,
+				9836FC632675282C00E2A0BE /* GetTicketViewController.swift in Sources */,
 				9836FC0D266E8E5C00E2A0BE /* ViewController.swift in Sources */,
 				9836FC3D2671337A00E2A0BE /* AppConstants.swift in Sources */,
 				9836FC3F2671340A00E2A0BE /* Dummy.swift in Sources */,
 				9836FC34266FD04D00E2A0BE /* DayCollectionViewCell.swift in Sources */,
 				9836FC21266FA40300E2A0BE /* MovieSeatViewController.swift in Sources */,
+				9836FC532674FFA300E2A0BE /* SIdeMenuViewController.swift in Sources */,
 				9836FC4E2673F50700E2A0BE /* LoginSigninCollectionViewCell.swift in Sources */,
+				9836FC562674FFF600E2A0BE /* NowShowingCollectionViewCell.swift in Sources */,
 				9836FC09266E8E5C00E2A0BE /* AppDelegate.swift in Sources */,
 				9836FC38266FDF5400E2A0BE /* TimeCollectionViewCell.swift in Sources */,
 				9836FC3B2671307E00E2A0BE /* MovieVO.swift in Sources */,
 				9836FC4B2673E55F00E2A0BE /* ViewExtension.swift in Sources */,
+				9836FC60267523A700E2A0BE /* NowShowingthirdCollectionViewCell.swift in Sources */,
+				9836FC5A2675160000E2A0BE /* NowShowingsecondCollectionViewCell.swift in Sources */,
 				9836FC4226713A3D00E2A0BE /* MovieSeatCollectionViewCell.swift in Sources */,
 				9836FC452672081A00E2A0BE /* WelcomeViewController.swift in Sources */,
 				9836FC1F266FA3EE00E2A0BE /* MovieTimeViewController.swift in Sources */,
+				9836FC512674FF7F00E2A0BE /* NowShowingViewController.swift in Sources */,
 				9836FC0B266E8E5C00E2A0BE /* SceneDelegate.swift in Sources */,
 				9836FC472673D15700E2A0BE /* Router.swift in Sources */,
+				9836FC692675372D00E2A0BE /* NowShowingTableViewCell.swift in Sources */,
+				9836FC6626752C7300E2A0BE /* NowShowingItemDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
