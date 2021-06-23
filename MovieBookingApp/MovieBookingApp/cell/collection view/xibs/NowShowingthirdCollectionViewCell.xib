@@ -10,17 +10,17 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="NowShowingthirdCollectionViewCell" customModule="MovieBookingApp" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="163" height="247"/>
+            <rect key="frame" x="0.0" y="0.0" width="176" height="236"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="163" height="247"/>
+                <rect key="frame" x="0.0" y="0.0" width="176" height="236"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BxE-A9-7nb">
-                        <rect key="frame" x="0.0" y="0.0" width="163" height="247"/>
+                        <rect key="frame" x="0.0" y="0.0" width="176" height="236"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Avengers Endgame" translatesAutoresizingMaskIntoConstraints="NO" id="T9U-Vw-RIb">
-                                <rect key="frame" x="0.0" y="0.0" width="163" height="180"/>
+                                <rect key="frame" x="0.0" y="0.0" width="176" height="180"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="180" id="Ki1-VW-NbD"/>
@@ -32,10 +32,10 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="UGW-lD-m6C">
-                                <rect key="frame" x="0.0" y="190" width="163" height="52"/>
+                                <rect key="frame" x="0.0" y="190" width="176" height="41"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avengers Endgame" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Zw-X8-NCE">
-                                        <rect key="frame" x="0.0" y="0.0" width="163" height="18"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="176" height="18"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="18" id="LWy-mK-FuI"/>
                                         </constraints>
@@ -44,7 +44,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mystery/Adventure - 1 hr52min" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wro-Jq-tma">
-                                        <rect key="frame" x="0.0" y="20" width="163" height="32"/>
+                                        <rect key="frame" x="0.0" y="20" width="176" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -72,8 +72,8 @@
                 <constraint firstAttribute="bottom" secondItem="BxE-A9-7nb" secondAttribute="bottom" id="bcz-D0-5hP"/>
                 <constraint firstAttribute="trailing" secondItem="BxE-A9-7nb" secondAttribute="trailing" id="hw2-2G-DkW"/>
             </constraints>
-            <size key="customSize" width="163" height="247"/>
-            <point key="canvasLocation" x="116.66666666666667" y="169.75446428571428"/>
+            <size key="customSize" width="176" height="236"/>
+            <point key="canvasLocation" x="126.08695652173914" y="166.07142857142856"/>
         </collectionViewCell>
     </objects>
     <resources>

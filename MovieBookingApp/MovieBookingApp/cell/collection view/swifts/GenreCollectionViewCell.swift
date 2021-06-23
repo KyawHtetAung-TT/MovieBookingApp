@@ -1,13 +1,13 @@
 //
-//  NowShowingCollectionViewCell.swift
+//  GenreCollectionViewCell.swift
 //  MovieBookingApp
 //
-//  Created by Ryan Willson on 6/14/21.
+//  Created by Ryan Willson on 6/23/21.
 //
 
 import UIKit
 
-class NowShowingCollectionViewCell: UICollectionViewCell {
+class GenreCollectionViewCell: UICollectionViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
