@@ -13,6 +13,10 @@
 		9821D9CB26838D8B0024AD76 /* CastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821D9C926838D8B0024AD76 /* CastCollectionViewCell.swift */; };
 		9821D9CC26838D8B0024AD76 /* CastCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9821D9CA26838D8B0024AD76 /* CastCollectionViewCell.xib */; };
 		9821D9CE2683947B0024AD76 /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821D9CD2683947B0024AD76 /* PayViewController.swift */; };
+		9821D9D02683A41F0024AD76 /* VisaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821D9CF2683A41F0024AD76 /* VisaViewController.swift */; };
+		9821D9D22683A42A0024AD76 /* AwesomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821D9D12683A42A0024AD76 /* AwesomeViewController.swift */; };
+		9821D9D52683AF760024AD76 /* VisaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821D9D32683AF760024AD76 /* VisaCollectionViewCell.swift */; };
+		9821D9D62683AF760024AD76 /* VisaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9821D9D42683AF760024AD76 /* VisaCollectionViewCell.xib */; };
 		9836FC09266E8E5C00E2A0BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836FC08266E8E5C00E2A0BE /* AppDelegate.swift */; };
 		9836FC0B266E8E5C00E2A0BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836FC0A266E8E5C00E2A0BE /* SceneDelegate.swift */; };
 		9836FC0D266E8E5C00E2A0BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836FC0C266E8E5C00E2A0BE /* ViewController.swift */; };
@@ -60,6 +64,10 @@
 		9821D9C926838D8B0024AD76 /* CastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastCollectionViewCell.swift; sourceTree = "<group>"; };
 		9821D9CA26838D8B0024AD76 /* CastCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CastCollectionViewCell.xib; sourceTree = "<group>"; };
 		9821D9CD2683947B0024AD76 /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		9821D9CF2683A41F0024AD76 /* VisaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaViewController.swift; sourceTree = "<group>"; };
+		9821D9D12683A42A0024AD76 /* AwesomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeViewController.swift; sourceTree = "<group>"; };
+		9821D9D32683AF760024AD76 /* VisaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCollectionViewCell.swift; sourceTree = "<group>"; };
+		9821D9D42683AF760024AD76 /* VisaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VisaCollectionViewCell.xib; sourceTree = "<group>"; };
 		9836FC05266E8E5C00E2A0BE /* MovieBookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieBookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9836FC08266E8E5C00E2A0BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9836FC0A266E8E5C00E2A0BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -168,6 +176,8 @@
 				9836FC522674FFA300E2A0BE /* SIdeMenuViewController.swift */,
 				9836FC622675282C00E2A0BE /* GetTicketViewController.swift */,
 				9821D9CD2683947B0024AD76 /* PayViewController.swift */,
+				9821D9CF2683A41F0024AD76 /* VisaViewController.swift */,
+				9821D9D12683A42A0024AD76 /* AwesomeViewController.swift */,
 			);
 			path = "view controller";
 			sourceTree = "<group>";
@@ -253,6 +263,7 @@
 				9836FC5F267523A700E2A0BE /* NowShowingthirdCollectionViewCell.xib */,
 				9821D9C6268382A70024AD76 /* GenreCollectionViewCell.xib */,
 				9821D9CA26838D8B0024AD76 /* CastCollectionViewCell.xib */,
+				9821D9D42683AF760024AD76 /* VisaCollectionViewCell.xib */,
 			);
 			path = xibs;
 			sourceTree = "<group>";
@@ -269,6 +280,7 @@
 				9836FC5E267523A700E2A0BE /* NowShowingthirdCollectionViewCell.swift */,
 				9821D9C5268382A70024AD76 /* GenreCollectionViewCell.swift */,
 				9821D9C926838D8B0024AD76 /* CastCollectionViewCell.swift */,
+				9821D9D32683AF760024AD76 /* VisaCollectionViewCell.swift */,
 			);
 			path = swifts;
 			sourceTree = "<group>";
@@ -400,6 +412,7 @@
 				9836FC4F2673F50700E2A0BE /* LoginSigninCollectionViewCell.xib in Resources */,
 				9836FC39266FDF5400E2A0BE /* TimeCollectionViewCell.xib in Resources */,
 				9836FC6A2675372D00E2A0BE /* NowShowingTableViewCell.xib in Resources */,
+				9821D9D62683AF760024AD76 /* VisaCollectionViewCell.xib in Resources */,
 				9836FC10266E8E5C00E2A0BE /* Main.storyboard in Resources */,
 				9836FC5B2675160000E2A0BE /* NowShowingsecondCollectionViewCell.xib in Resources */,
 				9836FC4326713A3D00E2A0BE /* MovieSeatCollectionViewCell.xib in Resources */,
@@ -456,6 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9821D9D22683A42A0024AD76 /* AwesomeViewController.swift in Sources */,
 				9836FC492673DDFC00E2A0BE /* LoginViewController.swift in Sources */,
 				9836FC632675282C00E2A0BE /* GetTicketViewController.swift in Sources */,
 				9836FC0D266E8E5C00E2A0BE /* ViewController.swift in Sources */,
@@ -463,6 +477,7 @@
 				9836FC3F2671340A00E2A0BE /* Dummy.swift in Sources */,
 				9836FC34266FD04D00E2A0BE /* DayCollectionViewCell.swift in Sources */,
 				9836FC21266FA40300E2A0BE /* MovieSeatViewController.swift in Sources */,
+				9821D9D02683A41F0024AD76 /* VisaViewController.swift in Sources */,
 				9836FC532674FFA300E2A0BE /* SIdeMenuViewController.swift in Sources */,
 				9836FC4E2673F50700E2A0BE /* LoginSigninCollectionViewCell.swift in Sources */,
 				9836FC09266E8E5C00E2A0BE /* AppDelegate.swift in Sources */,
@@ -484,6 +499,7 @@
 				9836FC692675372D00E2A0BE /* NowShowingTableViewCell.swift in Sources */,
 				9821D9C7268382A70024AD76 /* GenreCollectionViewCell.swift in Sources */,
 				9836FC6626752C7300E2A0BE /* NowShowingItemDelegate.swift in Sources */,
+				9821D9D52683AF760024AD76 /* VisaCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
