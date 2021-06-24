@@ -9,21 +9,18 @@ import UIKit
 
 class AwesomeViewController: UIViewController {
 
+    @IBOutlet weak var Imgpikachu: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        Imgpikachu.layer.cornerRadius = 20
+        Imgpikachu.layer.maskedCorners = [.layerMinXMinYCorner  , .layerMaxXMinYCorner]
+        
+        
         // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
 
 }
