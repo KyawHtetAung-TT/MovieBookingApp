@@ -28,8 +28,7 @@ class NowShowingTableViewCell: UITableViewCell {
         collectionViewNowShowing.delegate = self
         
         collectionViewNowShowing.register(UINib(nibName:String(describing: NowShowingCollectionViewCell.self), bundle: nil), forCellWithReuseIdentifier: String(describing: NowShowingCollectionViewCell.self))
-        collectionViewNowShowing.register(UINib(nibName:String(describing: NowShowingsecondCollectionViewCell.self), bundle: nil), forCellWithReuseIdentifier: String(describing: NowShowingsecondCollectionViewCell.self))
-        collectionViewNowShowing.register(UINib(nibName:String(describing: NowShowingthirdCollectionViewCell.self), bundle: nil), forCellWithReuseIdentifier: String(describing: NowShowingthirdCollectionViewCell.self))
+        
     }
     
     func registerNowShowingCollectionView(){
@@ -37,8 +36,7 @@ class NowShowingTableViewCell: UITableViewCell {
         collectionViewComingSoon.delegate = self
         
         collectionViewComingSoon.register(UINib(nibName:String(describing: NowShowingCollectionViewCell.self), bundle: nil), forCellWithReuseIdentifier: String(describing: NowShowingCollectionViewCell.self))
-        collectionViewComingSoon.register(UINib(nibName:String(describing: NowShowingsecondCollectionViewCell.self), bundle: nil), forCellWithReuseIdentifier: String(describing: NowShowingsecondCollectionViewCell.self))
-        collectionViewComingSoon.register(UINib(nibName:String(describing: NowShowingthirdCollectionViewCell.self), bundle: nil), forCellWithReuseIdentifier: String(describing: NowShowingthirdCollectionViewCell.self))
+        
     }
     
     
@@ -46,70 +44,38 @@ class NowShowingTableViewCell: UITableViewCell {
 }
 
 
-extension NowShowingTableViewCell: UICollectionViewDataSource,UICollectionViewDelegateFlowLayout{
+extension NowShowingTableViewCell : UICollectionViewDataSource,UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 1
-    }
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 3
     }
-    
+    private func numberOfSections(in tableView: UITableView) -> Int {
+        return 2
+    }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if collectionView == collectionViewNowShowing {
-            switch indexPath.section {
-            case 0:
-                guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: NowShowingCollectionViewCell.self), for: indexPath) as? NowShowingCollectionViewCell else {
-                    return UICollectionViewCell()
-                }
-                
-                return cell
-            case 1:
-                guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: NowShowingsecondCollectionViewCell.self), for: indexPath) as? NowShowingsecondCollectionViewCell else {
-                    return UICollectionViewCell()
-                }
-                return cell
-            case 2:
-                guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: NowShowingthirdCollectionViewCell.self), for: indexPath) as? NowShowingthirdCollectionViewCell else {
-                    return UICollectionViewCell()
-                }
-                return cell
-            default:
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: NowShowingCollectionViewCell.self), for: indexPath) as? NowShowingCollectionViewCell else {
                 return UICollectionViewCell()
             }
-
-        }else if collectionView == collectionViewComingSoon  {
-            switch indexPath.section {
-            case 0:
-                guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: NowShowingCollectionViewCell.self), for: indexPath) as? NowShowingCollectionViewCell else {
-                    return UICollectionViewCell()
-                }
-                
-                return cell
-            case 1:
-                guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: NowShowingsecondCollectionViewCell.self), for: indexPath) as? NowShowingsecondCollectionViewCell else {
-                    return UICollectionViewCell()
-                }
-                return cell
-            case 2:
-                guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: NowShowingthirdCollectionViewCell.self), for: indexPath) as? NowShowingthirdCollectionViewCell else {
-                    return UICollectionViewCell()
-                }
-                return cell
-            default:
-                return UICollectionViewCell()
             
+            return cell
+        }
+        else if collectionView == collectionViewComingSoon{
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: NowShowingCollectionViewCell.self), for: indexPath) as? NowShowingCollectionViewCell else {
+                return UICollectionViewCell()
             }
+            
+            return cell
         }
         
         return UICollectionViewCell()
-     
-
-        
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
 //        if collectionView == collectionViewNowShowing{
-            return CGSize(width: collectionView.bounds.width/2.5, height: 240)
+        let itemWidth : CGFloat = 120
+        let itemHeight : CGFloat = collectionView.frame.height
+        return CGSize(width: itemWidth, height: itemHeight)
+//        return CGSize(width: collectionView.bounds.width/2.7, height: 240)
 //        }else{
 //            return CGSize(width: collectionView.frame.width/3, height: 240)
 //        }
@@ -119,4 +85,19 @@ extension NowShowingTableViewCell: UICollectionViewDataSource,UICollectionViewDe
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         delegate?.onTapMovie()
     }
+
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
