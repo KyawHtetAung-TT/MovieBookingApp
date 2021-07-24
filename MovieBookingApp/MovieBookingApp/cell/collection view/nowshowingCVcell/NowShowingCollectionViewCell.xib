@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="NowShowingCollectionViewCell" customModule="MovieBookingApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="166" height="246"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="166" height="246"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4w6-FT-zGJ">
+                        <rect key="frame" x="0.0" y="0.0" width="166" height="246"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detective pikachu" translatesAutoresizingMaskIntoConstraints="NO" id="i9o-v6-EED">
+                                <rect key="frame" x="0.0" y="0.0" width="166" height="200"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="KMa-LG-T09"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IL2-1x-aMi">
+                                <rect key="frame" x="0.0" y="200" width="166" height="41"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detective Pikachu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5WE-mU-AfY">
+                                        <rect key="frame" x="0.0" y="0.0" width="166" height="26"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mystery-1hr 52min" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLu-SW-Hr1">
+                                        <rect key="frame" x="0.0" y="26" width="166" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="iwu-ta-GhN"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IL2-1x-aMi" firstAttribute="leading" secondItem="4w6-FT-zGJ" secondAttribute="leading" id="3wM-yP-DDe"/>
+                            <constraint firstItem="IL2-1x-aMi" firstAttribute="top" secondItem="i9o-v6-EED" secondAttribute="bottom" id="5bW-Ja-lvb"/>
+                            <constraint firstAttribute="trailing" secondItem="IL2-1x-aMi" secondAttribute="trailing" id="Hvb-LF-8XU"/>
+                            <constraint firstAttribute="trailing" secondItem="i9o-v6-EED" secondAttribute="trailing" id="N7H-gU-Ozy"/>
+                            <constraint firstItem="i9o-v6-EED" firstAttribute="top" secondItem="4w6-FT-zGJ" secondAttribute="top" id="cjX-5F-wGq"/>
+                            <constraint firstAttribute="bottom" secondItem="IL2-1x-aMi" secondAttribute="bottom" constant="5" id="jXU-Ea-tYj"/>
+                            <constraint firstItem="i9o-v6-EED" firstAttribute="leading" secondItem="4w6-FT-zGJ" secondAttribute="leading" id="ler-fq-Y6c"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="4w6-FT-zGJ" secondAttribute="trailing" id="GSc-Vh-jHB"/>
+                <constraint firstItem="4w6-FT-zGJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="OIb-EY-e66"/>
+                <constraint firstAttribute="bottom" secondItem="4w6-FT-zGJ" secondAttribute="bottom" id="jo3-Fm-LH0"/>
+                <constraint firstItem="4w6-FT-zGJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="xoa-jn-uHK"/>
+            </constraints>
+            <size key="customSize" width="166" height="246"/>
+            <connections>
+                <outlet property="imageViewPosterdrop" destination="i9o-v6-EED" id="hMr-N6-35f"/>
+                <outlet property="labeltitle" destination="5WE-mU-AfY" id="X5p-lU-VQ6"/>
+                <outlet property="lblGenreandDate" destination="zLu-SW-Hr1" id="rAx-0j-SD1"/>
+            </connections>
+            <point key="canvasLocation" x="118.84057971014494" y="168.75"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="detective pikachu" width="240" height="360"/>
+    </resources>
+</document>

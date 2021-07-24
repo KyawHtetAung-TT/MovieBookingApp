@@ -1,16 +1,30 @@
 PODS:
+  - Alamofire (5.4.3)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
   - SideMenu (6.5.0)
+  - Wormholy (1.6.4)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - SDWebImage (~> 5.0)
   - SideMenu
+  - Wormholy
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - SDWebImage
     - SideMenu
+    - Wormholy
 
 SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  Wormholy: 2e70f64227e010d363f8d33268369f77faf12471
 
-PODFILE CHECKSUM: ffc8505bb72939a9d17ac0ba22e45501a866e84a
+PODFILE CHECKSUM: f81975e65a149601c22673bada7a437b581de1d4
 
 COCOAPODS: 1.10.1
